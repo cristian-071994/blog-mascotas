@@ -39,7 +39,7 @@ img {
 
 /* Clases reutilizables */
 .contenedor {
-  max-width: 1920px;
+  max-width: 768px;
   padding: 0 1rem;
 }
 
@@ -223,6 +223,11 @@ viewport-height
 }
 
 @media (min-width: 768px) {
+  .contenedor {
+    max-width: 1920px;
+    padding: 0 1rem;
+  }
+
   .header .contenedor {
     flex-direction: row;
     justify-content: space-between;
